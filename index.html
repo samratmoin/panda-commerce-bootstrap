@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <title>Panda Commerce</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="159" height="41">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <!-- banner section start -->
+    <section class="container banner-area rounded">
+      <div class="banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- single slider -->
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-7 banner-content">
+                  <h2>Mi LED TV 4A PRO 32</h2>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                  <h3><span>$</span>1289</h3>
+                  <!-- <button class="btn">Buy Now <a href=""><i class="bi bi-arrow-right-short"></i></a></button> -->
+                  <a href="" class="btn btn-slider">Buy Now <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/tv.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <!-- single slider -->
+            </div>
+            <div class="carousel-item">
+              <!-- single slider -->
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-7 banner-content">
+                  <h2>X-Box for your living room</h2>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                  <h3><span>$</span>600</h3>
+                  <!-- <button class="btn">Buy Now <a href=""><i class="bi bi-arrow-right-short"></i></a></button> -->
+                  <a href="" class="btn btn-slider">Buy Now <span><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/xbox.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <!-- single slider -->
+            </div>
+            <div class="carousel-item">
+               <!-- single slider -->
+               <div class="row d-flex align-items-center">
+                <div class="col-lg-7 banner-content">
+                  <h2>Cool Dude Headphone</h2>
+                  <p>This is the best headphone in the world for people who just want to waste time in
+                    front of funky world.</p>
+                  <h3><span>$</span>420</h3>
+                  <!-- <button class="btn">Buy Now <a href=""><i class="bi bi-arrow-right-short"></i></a></button> -->
+                  <a href="" class="btn btn-slider">Buy Now <span><i class="bi bi-arrow-right"></i></i></span></a>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/headphone.png" class="img-fluid" alt="">
+                </div>
+              </div>
+              <!-- single slider -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+    <!-- category section start -->
+    <section class="container categories my-5">
+      <h2 class="section-title mb-3">Categories</h2>
+      <div class="row">
+        <div class="col-lg-4">
+         <div class="p-3 d-flex align-items-center justify-content-between border rounded-3 category-1">
+          <h3 class="text-white">Watch</h3>
+          <img src="images/categories/watch.png" class="img-fluid" alt="">
+         </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-3 d-flex align-items-center justify-content-between border rounded-3 category-2">
+            <h3 class="text-white">Bag</h3>
+          <img src="images/categories/bag.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      
+      
+        <div class="col-lg-4">
+          <div class="p-3 d-flex align-items-center justify-content-between border rounded-3 category-3">
+            <h3 class="text-white">Shoes</h3>
+            <img src="images/categories/shoes.png" class="img-fluid" alt="">
+          </div>
+
+         
+        </div>
+      </div>
+
+    </section>
+    <!-- category section end -->
+    <!-- shoes section start -->
+    <section class="container shoes">
+      <h2 class="section-title mb-3">Shoes</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-lg rounded-3">
+            <img src="images/shoes/shoe-1.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+              <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+             <h6><span>$</span>1289</h6>
+            </div>
+            <div class="m-3 text-center">
+             <button class="btn btn-category">Buy Now <span><i class="bi bi-arrow-right"></i></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-lg rounded-3">
+            <img src="images/shoes/shoe-2.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Reebok Pump</h5>
+              <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+             <h6><span>$</span>799</h6>
+            </div>
+            <div class="m-3 text-center">
+             <button class="btn btn-category">Buy Now <span><i class="bi bi-arrow-right"></i></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-lg rounded-3">
+            <img src="images/shoes/shoe-3.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Reebok All Terrain</h5>
+              <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+             <h6><span>$</span>699</h6>
+            </div>
+            <div class="m-3 text-center">
+             <button class="btn btn-category">Buy Now <span><i class="bi bi-arrow-right"></i></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- shoes section end -->
+
+
+
+
+
+
+
+
+
+    <!-- JS Links -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
