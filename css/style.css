@@ -1,43 +1,41 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .section-title {
-font-weight: 600;
-font-size: 36px;
-line-height: 54px;
-color: #1F1F1F;
-
-
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1f1f1f;
 }
 .banner-area {
-  background-color:#FEEAE9;
+  background-color: #feeae9;
 }
 
 .banner-content h2 {
-font-weight: bold;
-font-size: 40px;
-line-height: 84px;
-color: #1F1F1F;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 84px;
+  color: #1f1f1f;
 }
 
 .banner-content p {
-font-size: 16px;
-line-height: 26px;
-color: #4E4E4E;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
 }
 
 .banner-content h3 {
-font-weight: 500;
-font-size: 40px;
-line-height: 61px;
-color: #FF136F;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 61px;
+  color: #ff136f;
 }
 
-.btn-slider{
-background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-border-radius: 6px;
-color: #fff;
+.btn-slider {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 6px;
+  color: #fff;
 }
 
 .btn-slider span {
@@ -45,46 +43,71 @@ color: #fff;
 }
 
 .category-1 {
-  background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
 
 .category-2 {
-  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
 
 .category-3 {
-  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
 
-.shoes {
+.shoes,
+.backpack {
   background-color: #f4f4f4;
 }
 
 .card-body h5 {
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-text-align: center;
-color: #1F1F1F;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #1f1f1f;
 }
 
-.card-body p{
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #4E4E4E;
+.card-body p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #4e4e4e;
 }
 
 .card-body h6 {
-font-weight: 500;
-font-size: 24px;
-line-height: 36px;
-text-align: center;
-color: #1F1F1F;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #1f1f1f;
 }
 
 .btn-category {
   background: #000;
   border-radius: 6px;
   color: #fff;
+}
+
+.contact {
+  background: #fff2f1;
+}
+.contact-text h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1f1f1f;
+}
+
+.contact-text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+.btn-form {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 8px;
 }
