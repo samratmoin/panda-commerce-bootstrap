@@ -4,9 +4,23 @@ body {
 
 .section-title {
   font-weight: 600;
-  font-size: 36px;
-  line-height: 54px;
+  font-size: 2.25rem;
+  line-height: 3.25rem;
   color: #1f1f1f;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  border-radius: 20px;
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
 }
 .banner-area {
   background-color: #feeae9;
@@ -14,21 +28,21 @@ body {
 
 .banner-content h2 {
   font-weight: bold;
-  font-size: 40px;
-  line-height: 84px;
+  font-size: 2.5rem;
+  line-height: 5rem;
   color: #1f1f1f;
 }
 
 .banner-content p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   color: #4e4e4e;
 }
 
 .banner-content h3 {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 61px;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
   color: #ff136f;
 }
 
@@ -39,7 +53,7 @@ body {
 }
 
 .btn-slider span {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .category-1 {
@@ -61,23 +75,23 @@ body {
 
 .card-body h5 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   text-align: center;
   color: #1f1f1f;
 }
 
 .card-body p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   text-align: center;
   color: #4e4e4e;
 }
 
 .card-body h6 {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   text-align: center;
   color: #1f1f1f;
 }
@@ -94,15 +108,15 @@ body {
 }
 .contact-text h2 {
   font-weight: 600;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 1.875rem;
+  line-height: 2.75rem;
   color: #1f1f1f;
 }
 
 .contact-text p {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #707070;
 }
 
@@ -112,4 +126,11 @@ body {
   padding: 9px 25px;
   border: none;
   border-radius: 8px;
+}
+
+@media (min-width: 576px) {
+  .banner-content h2 {
+    font-size: 2rem;
+    line-height: normal;
+  }
 }
